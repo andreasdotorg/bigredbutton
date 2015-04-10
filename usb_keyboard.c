@@ -1,4 +1,10 @@
-/* USB Keyboard Example for Teensy USB Development Board
+/* Big Red Button USB HID
+ * https://github.com/andreas23/bigredbutton
+ * Copyright (c) 2015 Andreas Bogk
+ *
+ * Based on:
+ * 
+ * USB Keyboard Example for Teensy USB Development Board
  * http://www.pjrc.com/teensy/usb_keyboard.html
  * Copyright (c) 2009 PJRC.COM, LLC
  * 
@@ -34,16 +40,16 @@
  **************************************************************************/
 
 // You can change these to give your code its own name.
-#define STR_MANUFACTURER	L"MfgName"
-#define STR_PRODUCT		L"Keyboard"
+#define STR_MANUFACTURER	L"andreasdotorg"
+#define STR_PRODUCT		L"Big Red Button"
 
 
 // Mac OS-X and Linux automatically load the correct drivers.  On
 // Windows, even though the driver is supplied by Microsoft, an
 // INF file is needed to load the driver.  These numbers need to
 // match the INF file.
-#define VENDOR_ID		0x16C0
-#define PRODUCT_ID		0x047C
+#define VENDOR_ID		0x1209
+#define PRODUCT_ID		0x2342
 
 
 // USB devices are supposed to implment a halt feature, which is

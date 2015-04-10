@@ -1,4 +1,10 @@
-/* Keyboard example for Teensy USB Development Board
+/* Big Red Button USB HID
+ * https://github.com/andreas23/bigredbutton
+ * Copyright (c) 2015 Andreas Bogk
+ *
+ * Based on:
+ * 
+ * Keyboard example for Teensy USB Development Board
  * http://www.pjrc.com/teensy/usb_keyboard.html
  * Copyright (c) 2008 PJRC.COM, LLC
  * 
